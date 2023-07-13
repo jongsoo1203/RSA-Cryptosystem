@@ -1,0 +1,11 @@
+stdio = library
+stdio.writeln = print
+-try not to use print
+API
+writeln= new line character in ternminal
+write= new message
+
+compile error(Syntax Error)- bracket is wrong
+Run error(Name Error)- no importing library
+Logic error- no ln, and no new line
+

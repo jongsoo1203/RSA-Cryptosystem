@@ -1,0 +1,10 @@
+How to find the maximum
+
+a = stdio.readAllInts()
+
+Max = None
+for i in range(len(a)):
+	if Max = None or Max < a[i]:
+		Max = a[i]
+
+print(Max) 

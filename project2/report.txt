@@ -1,0 +1,108 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<6>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<5>>>
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   Aayush Shrivastava  TA          indent problems, the range for the while loops
+   MuhammadMoiz Amjad  SI          fixing errors when I input a value.
+                                    Mostly, it was because the indent of loops.
+                                   For card.py, I asked the general idea of what I should do.
+                                   For gcd.py, he showed how to write p and q with p mod q.
+   ...                ...          ...
+
+4. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Wind Chill)
+      Approach: since it was similar problem that was in project 1, I put the general coding.
+      However, because it requires the range for the temperature and the speed,
+      I used if statement.
+
+      Issues and resolution: The problem was straight forward.
+      But, I had to make the indent lines are correctly placed
+
+   Problem 2 (Day of the Week)
+      Approach: Again, because it was on the project 1, it was easy set up.
+      In addition, because it requires us to translate the numbers to names,
+      I had to state the names. By using if statement, I stated the name of the days.
+
+      Issues and resolution: None.
+
+   Problem 3 (Playing Card)
+      Approach: Usingg if statements so that the suits and ranks can be redfined
+      as what the standard output look like
+
+      Issues and resolution: Because it is such a simple problem,
+      I felt as if there are shorter way to write the coding.
+      However, it came out I had to write the whole if statements
+      so that the ranks and suits will come out as output.
+
+   Problem 4 (Root Finding)
+      Approach: set the inputs and t. Using while loop so that it repeats.
+      Finally, write down calculation.
+
+      Issues and resolution: None.
+
+   Problem 5 (Greatest Common Divisor)
+      Approach: Set the arguments. Use While for repeat and write down the exchanging values.
+
+      Issues and resolution: because I did not know how to write
+      "Exchange p and q with q and p mod q." I was struggling for 40 mins.
+      However, the SI helped me to write it down saying I can use comma for this.
+
+   Problem 6 (Fibonacci Number)
+      Approach: accecpting the arguments and setting the original value for a and i.
+      using while loop for repeating.
+
+      Issues and resolution: I had the same issue as problem 5.
+       However, by the help of SI, I solved it.
+
+   Problem 7 (Sum of Powers)
+      Approach: accepting the arguments. Set the total as 0. Using for loop
+      so that I can set the range. Increment total by i**k
+
+      Issues and resolution: None.
+
+   Problem 8 (Dragon Curve)
+      Approach: accept the argument. Set dragon and nogard to the string “F”.
+      Using for loop setting the range. Finally, exchanging the dragon or nogard with L or R.
+
+      Issues and resolution: None.
+
+   Problem 9 (Perfect Numbers)
+      Approach: accept n as argument. Set total to 0. Using for loop setting the range.
+      If i mod j = 0, increment total by j. If total = i, write i (perfect number).
+
+
+      Issues and resolution: None
+
+   Problem 10 (Ramanujan Numbers)
+      Approach: set the argument. Before writing the while loop,
+      set a = 1 so that a has a place to start with. Because we set the value of a,
+      next loops are going to be b = a + 1, c = a + 1, and d = c + 1.
+      Finally, when while loops are satisfied,
+      use if statement so that it can calculate the number.
+      For the times, when the while loops are not satisfied, increment each value by 1.
+
+      Issues and resolution: The main problem I faced was indenting the loops.
+      One of TA just deleted one indent lines
+      and solved the whole problem. In addition, I tried to set a value as a name.
+      The coding could not identify the name as the value.
+      Therefore, I just wrote down the value by putting actual calculation.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   As I learn more about writing codings, I feel so satisfied with taking cs110 class.
+   Although I face some difficulties, I love the process of thinkging and analyzing problems.
+   Specifically, my mathematical brain is helping me a lot.

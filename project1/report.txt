@@ -1,0 +1,87 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<2>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Did you receive help from anyone? List their names, status (classmate,
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   prof. Swami        professor    style
+   IDK                TA           style
+   ...                ...          ...
+
+4. Provide a short description of how you approached each problem, issues you
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Day of the Week)
+      Approach: made every comman-line argument. Since the mathemetics was written down, I just translated into Python.
+      I also added variables in order to make the final process is easy to read.
+
+      Issues and resolution: None
+
+   Problem 2 (Mercator Projection)
+      Approach: made every comman-line argument. Same as "Day of the week" I translated math work.
+      Since the outputs incldue space between the answers, I used + and str().
+
+      Issues and resolution: because I could not use special letters in Python, I had to use latitude and longitude.
+
+   Problem 3 (Great Circle Distance)
+      Approach: made every comman-line argument. Wrote down the mathemetics.
+
+      Issues and resolution: Because Python does not allow passing 100 lines, I had to make it short by using other lines.
+
+   Problem 4 (Wind Chill)
+      Approach: made every comman-line argument. wrote down the mathmetics.
+
+      Issues and resolution: None
+
+   Problem 5 (Gravitational Force)
+      Approach: made every comman-line argument. wrote down the mathmetics.
+      In addition, I had to write what is G as number 6.674e-11 so that it is easier to read the coding.
+
+      Issues and resolution: None
+
+   Problem 6 (Snell's Law)
+      Approach: made every comman-line argument. wrote down the mathmetics.
+      In addition, I had to change the final result to degree because that was what problem wanted
+
+      Issues and resolution: none
+
+   Problem 7 (Gambler's Ruin)
+      Approach: made every comman-line argument. wrote down the mathmetics.
+
+      Issues and resolution: none
+
+   Problem 8 (Waiting Time)
+      Approach: made every comman-line argument. wrote down the mathmetics.
+      In addition, I used alphabet letters for the special ones.
+
+      Issues and resolution: none
+
+   Problem 9 (Die Roll)
+      Approach: made every comman-line argument. Assuming you are going to add to outcome of n sided-dice's sides,I made n1 and n2.
+       Finally added n1 and n2 for the answer.
+
+      Issues and resolution: Because I had a problem understanding what it was asking for, I posted on Piazza for professor's help.
+      However, the crucial problem was when the input n was 1, there was no outcome for my first coding.
+      Therfore, I switched stdrandom.uniformInt(1, n) to stdrandom.uniformInt(1, n+1) in order to include n for the random number.
+
+   Problem 10 (Three Sort)
+      Approach: made every command-line argument. because min() and max() find the minimum and maximum value,
+      I added three inputs and subtracted min() and max() values. Finally, finding the middle value.
+      Therefore, for std.writeln(), I wrote the min, mid, and max values in order.
+
+      Issues and resolution: I did not know what are min() and max(). Thus, I had to search what they do in Python.
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I enjoyed the thinking process of how I can solve each problems and learning new functions in Python.
