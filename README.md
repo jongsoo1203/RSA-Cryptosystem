@@ -9,7 +9,7 @@ cryptosystem and implement programs for encrypting and decrypting messages using
 ### RSA.py
 
 The RSA public-key cryptosystem involves three integers n, e, and d that satisfy certain mathematical properties. The public key (n; e) is made public on the Internet, while the private key (n; d) is only known to Bob.
-If Alice wants to send Bob a message x 2 [0; n), she encrypts it using the function
+If Alice wants to send Bob a message, she encrypts it using the function
 __E(x) = y = x^e mod n;__
 Decrypts by
 __D(y) = y^d mod n;__
